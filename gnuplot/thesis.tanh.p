@@ -15,7 +15,7 @@ unset multiplot
 
 set terminal wxt enhanced
 #set terminal postscript enhanced eps color font "Times-Roman,10"
-set output "~/thesis/figures/densitytanh.eps"
+set output ".../plot/thesis.densitytanh.eps"
 
 
 

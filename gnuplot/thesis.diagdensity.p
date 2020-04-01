@@ -14,7 +14,7 @@ set ytic auto                          # set ytics automatically
 unset multiplot
 
 set terminal postscript enhanced eps color font "Times-Roman,12"
-set output "~/thesis/figures/diagdensity.eps"
+set output ".../plot/thesis.diagdensity.eps"
 
 
 

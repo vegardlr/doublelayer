@@ -12,7 +12,7 @@ unset multiplot
 
 set terminal wxt enhanced
 set terminal postscript enhanced eps color font "Times-Roman,18"
-set output "~/thesis/figures/initDLspace.eps"
+set output ".../plot/thesis.initDLspace.eps"
 
 L=250
 

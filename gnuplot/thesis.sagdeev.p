@@ -15,7 +15,7 @@ unset multiplot
 
 set terminal wxt enhanced
 set terminal postscript enhanced eps color font "Times-Roman,24"
-set output "~/thesis/figures/initDLsagdeev.eps"
+set output ".../plot/thesis.initDLsagdeev.eps"
 
 
 
@@ -51,7 +51,7 @@ plot    data using 2:($6/.000015) with lines title "{/Symbol r}({/Symbol f})/{/S
 
 
 set out
-set output "~/thesis/figures/initDLphi.eps"
+set output ".../plot/thesis.initDLphi.eps"
 
 set size 1,0.5
 set autoscale

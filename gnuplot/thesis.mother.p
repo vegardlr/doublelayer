@@ -33,7 +33,7 @@ set ylabel "E(x) [{/Symbol k} T/e{/Symbol l}_D]"
 
 set key off
 set size 1.0,0.5
-set output "~/thesis/figures/mother.fullsignal.eps"
+set output ".../plot/thesis.mother.fullsignal.eps"
 set title "Fullsize signal at t=92.15 {/Symbol w}_{pe}^{-1}"
 plot field using 1:4 with lines 
 unset size
@@ -46,7 +46,7 @@ set ylabel "E(x) [{/Symbol k} T/e{/Symbol l}_D]"
 
 set xtics 50
 set key top left box
-set output "~/thesis/figures/mother.signal.eps"
+set output ".../plot/thesis.mother.signal.eps"
 set size 1,0.5
 set multiplot layout 1,2
 set size 0.5,0.5
@@ -67,7 +67,7 @@ set ylabel "Power"
 set xlabel "Wavenumber k [{/Symbol l}_D^{-1}]"
 
 set key top right box
-set output "~/thesis/figures/mother.ps.eps"
+set output ".../plot/thesis.mother.ps.eps"
 set multiplot layout 1,2 title "Accumulated power spectrum t=92.15 to t=102.35 {/Symbol w}_{pe}^{-1}"
 set title "Left"
 plot    lps using ($1*0.03351):2 with lines title "Power spectrum", \
@@ -87,7 +87,7 @@ set xlabel "Time [{/Symbol w}_{pe}^{-1}]"
 set ylabel "Power"
 
 set key left top box
-set output "~/thesis/figures/mother.tracking.eps"
+set output ".../plot/thesis.mother.tracking.eps"
 
 load 'results.power.p'
 

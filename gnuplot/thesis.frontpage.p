@@ -2,7 +2,7 @@ load 'script.header.p'
 
 set terminal wxt enhanced
 set terminal postscript enhanced eps color font "Times-Roman,11"
-set output "~/thesis/figures/frontpage.eps"
+set output ".../plot/thesis.frontpage.eps"
 
 set key off
 
