@@ -1,0 +1,8 @@
+plot/*
+log/*
+diag/*
+*.dat
+*.ps
+*.eps
+a.out
+
