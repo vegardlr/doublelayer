@@ -1,0 +1,20 @@
+Simulation starts at ma. 23. mars 19:31:52 +0100 2009
+
+ Simulation parameters: 
+       x = (-250,0,250,500)
+      dx = 0.366211
+      dt = 0.0313895
+  vdt/dx = 0.6
+    time = 3185
+ time*dt = 99.9756
+
+ Plasma and DL parameters: 
+   mi/me = 100
+   Ti/Te = 1
+    mach = 5
+   phiDL = 200
+
+ Boundary condition: vN - D
+ Initial stabilitycheck...   Finished
+
+                    --- INITIALIZING DL ---

@@ -1,0 +1,79 @@
+Simulation starts at ma. 23. mars 19:31:58 +0100 2009
+
+ Simulation parameters: 
+       x = (-250,0,250,500)
+      dx = 0.366211
+      dt = 0.0313895
+  vdt/dx = 0.6
+    time = 3185
+ time*dt = 99.9756
+
+ Plasma and DL parameters: 
+   mi/me = 100
+   Ti/Te = 1
+    mach = 5
+   phiDL = 200
+
+ Boundary condition: D - vN
+ Initial stabilitycheck...   Finished
+
+                    --- INITIALIZING DL ---
+ Charge density
+   Overall neutrality= -8.49195e-06%
+   Neutrality at boundaries= -7.80905e-15%  -7.85904e-05%
+
+ Influx 
+   Pea=761.334 Perd=45.9799 Pia=76.1258 Pird=4.60118
+
+ Particle numbers
+   Nea=2066451  Ner=1028501  Ned=0  Nia=2081857  Nir=1014586  Nid=0
+   Ne=3094952   Ni=3096443   Ni-Ne=1491   (Ni-Ne)/(avg(N))=0.0120409%
+
+ Adjusting particle numbers
+
+                    --- INITIALIZING DL ---
+ Charge density
+   Overall neutrality= -8.49195e-06%
+   Neutrality at boundaries= -7.16885e-16%  -7.85904e-05%
+
+ Influx 
+   Pea=245.992 Perd=14.8564 Pia=24.5968 Pird=1.48667
+
+ Particle numbers
+   Nea=667684  Ner=332315  Ned=0  Nia=672662  Nir=327819  Nid=0
+   Ne=999999   Ni=1000481   Ni-Ne=482   (Ni-Ne)/(avg(N))=0.0120471%
+
+ Generating particles
+   Electrons: Accelerated - Reflected 
+   Ions: Accelerated - Reflected 
+
+ Average no. of particles pr. cell = 488.16
+
+Printf takes time, done.
+
+          ---STARTING TEMPORAL SIMULATIONS---
+ Diagnostics at t=0 - Checking for nans  ...Finished
+  Found powerspectrum modes, right: m[0]=2 
+  Found powerspectrum modes, right: m[0]=2 m[1]=6 
+ Diagnostics at t=319 - Checking for nans  ...Finished
+  Found powerspectrum modes, right: m[0]=2 m[1]=6 
+  Found powerspectrum modes, left: m[0]=1 
+ Diagnostics at t=637 - Checking for nans  ...Finished
+  Found powerspectrum modes, left: m[0]=1 
+  Found powerspectrum modes, left: m[0]=1 m[1]=3 
+ Diagnostics at t=956 - Checking for nans  ...Finished
+  Found powerspectrum modes, left: m[0]=1 m[1]=3 
+ Diagnostics at t=1274 - Checking for nans  ...Finished
+  Found powerspectrum modes, left: m[0]=1 m[1]=3 
+ Diagnostics at t=1593 - Checking for nans  ...Finished
+ Diagnostics at t=1911 - Checking for nans  ...Finished
+  Found powerspectrum modes, left: m[0]=1 m[1]=3 
+ Diagnostics at t=2230 - Checking for nans  ...Finished
+  Found powerspectrum modes, left: m[0]=1 m[1]=3 
+ Diagnostics at t=2548 - Checking for nans  ...Finished
+ Diagnostics at t=2867 - Checking for nans  ...Finished
+  Found powerspectrum modes, left: m[0]=1 m[1]=3 m[2]=2 
+ Diagnostics at t=3185 - Checking for nans  ...Finished
+ Printing 'transit time'-'entry velocity' histogram at t=3185 ...Finished
+               -----SIMULATIONS DONE--------
+Simulation ends at ma. 23. mars 19:52:16 +0100 2009

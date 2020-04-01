@@ -1,0 +1,55 @@
+Simulation starts at ma. 09. mars 12:20:14 +0100 2009
+
+ Simulation parameters: 
+       x = (-250,0,250,500)
+      dx = 0.366211
+      dt = 0.0313895
+  vdt/dx = 0.6
+    time = 3185
+ time*dt = 99.9756
+
+ Plasma and DL parameters: 
+   mi/me = 100
+   Ti/Te = 1
+    mach = 5
+   phiDL = 200
+
+ Boundary condition: vN - vN
+ Initial stabilitycheck...   Finished
+
+                    --- INITIALIZING DL ---
+ Charge density
+   Overall neutrality= -8.49195e-06%
+   Neutrality at boundaries= -7.80905e-15%  -7.85904e-05%
+
+ Influx 
+   Pea=761.334 Perd=45.9799 Pia=76.1258 Pird=4.60118
+
+ Particle numbers
+   Nea=2066451  Ner=1028501  Ned=0  Nia=2081857  Nir=1014586  Nid=0
+   Ne=3094952   Ni=3096443   Ni-Ne=1491   (Ni-Ne)/(avg(N))=0.0120409%
+
+ Adjusting particle numbers
+
+                    --- INITIALIZING DL ---
+ Charge density
+   Overall neutrality= -8.49195e-06%
+   Neutrality at boundaries= -4.26969e-15%  -7.85904e-05%
+
+ Influx 
+   Pea=2459.92 Perd=148.564 Pia=245.968 Pird=14.8667
+
+ Particle numbers
+   Nea=6676844  Ner=3323157  Ned=0  Nia=6726623  Nir=3278196  Nid=0
+   Ne=10000001   Ni=10004819   Ni-Ne=4818   (Ni-Ne)/(avg(N))=0.0120421%
+
+ Generating particles
+   Electrons: Accelerated - Reflected 
+   Ions: Accelerated - Reflected 
+
+ Average no. of particles pr. cell = 4881.61
+
+Printf takes time, done.
+
+          ---STARTING TEMPORAL SIMULATIONS---
+ Diagnostics at t=0 - Checking for nans  ...Finished
