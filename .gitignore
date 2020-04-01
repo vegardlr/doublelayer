@@ -1,6 +1,7 @@
 plot/*
 log/*
 diag/*
+gnuplot/marks
 *.dat
 *.ps
 *.eps

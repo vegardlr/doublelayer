@@ -102,7 +102,7 @@ void set_globals(int *N){
 	//Variable paramters
 	L=250;			//Spatial range
 	phiDL=200.0;		//Potential leap (must be >0)
-	mp=100.;		//Ion mass
+	mp=10.;		//Ion mass
 	mach=5;			//Driftvelocity
 
 	//For the scriptfile BCcopy
@@ -112,14 +112,14 @@ void set_globals(int *N){
 	temp_mp=0;
 	temp_mach=0;
 
-	particles=long(1e6);
-	time=100.;		//Simulation time in units of dt
+	particles=long(1e5);
+	time=10.;		//Simulation time in units of dt
 
 	num_part=1e5;	//Temporary number for no. of particles
 
 
 	//"SIZES" OF SIMULATION	
-	space=250;		//Size of plasma added
+	space=25;		//Size of plasma added
 	Adx=0.5;		//Accuracy x
 	Avdtdx=0.6;		//Accuracy vdt/dx
 
